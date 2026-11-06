@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-hidden="true">
+  <circle cx="300" cy="230" r="205" fill="#DCE6F2"/>
+  <circle cx="470" cy="90" r="40" fill="#2A9D8F" opacity=".25"/>
+  <ellipse cx="300" cy="400" rx="250" ry="26" fill="#1F3A5F" opacity=".12"/>
+  <!-- T-shirt -->
+  <path d="M135 120 L190 92 Q225 118 260 92 L315 120 L345 185 L305 202 L305 360 L145 360 L145 202 L105 185 Z" fill="#1F3A5F"/>
+  <path d="M190 92 Q225 118 260 92" fill="none" stroke="#152a46" stroke-width="6"/>
+  <rect x="198" y="170" width="54" height="30" rx="6" fill="#2A9D8F"/>
+  <text x="225" y="191" font-family="system-ui,sans-serif" font-size="17" font-weight="800" fill="#1F3A5F" text-anchor="middle">C&amp;V</text>
+  <!-- Cap -->
+  <path d="M60 330 A60 52 0 0 1 180 330 Z" fill="#4F86B7"/>
+  <path d="M170 330 Q215 334 232 350 L170 346 Z" fill="#3A6A96"/>
+  <rect x="58" y="326" width="122" height="10" rx="5" fill="#3A6A96"/>
+  <circle cx="120" cy="278" r="6" fill="#3A6A96"/>
+  <!-- Mug -->
+  <path d="M470 270 a34 34 0 1 1 0 64" fill="none" stroke="#2A9D8F" stroke-width="14"/>
+  <rect x="370" y="250" width="105" height="125" rx="14" fill="#2A9D8F"/>
+  <rect x="370" y="250" width="105" height="18" rx="9" fill="#7FCDC3"/>
+  <rect x="392" y="296" width="62" height="34" rx="6" fill="#FFFFFF"/>
+  <text x="423" y="319" font-family="system-ui,sans-serif" font-size="16" font-weight="800" fill="#1F3A5F" text-anchor="middle">LOGO</text>
+  <!-- Gift box -->
+  <rect x="250" y="300" width="120" height="90" rx="8" fill="#FFFFFF" stroke="#1F3A5F" stroke-width="4"/>
+  <rect x="240" y="282" width="140" height="28" rx="6" fill="#FFFFFF" stroke="#1F3A5F" stroke-width="4"/>
+  <rect x="302" y="282" width="16" height="108" fill="#4F86B7"/>
+  <path d="M310 282 C285 250 262 262 280 280 Z M310 282 C335 250 358 262 340 280 Z" fill="#4F86B7"/>
+  <!-- Pen -->
+  <g transform="rotate(-35 470 170)">
+    <rect x="400" y="160" width="150" height="20" rx="10" fill="#1F3A5F"/>
+    <rect x="400" y="160" width="40" height="20" rx="10" fill="#2A9D8F"/>
+    <path d="M550 160 L578 170 L550 180 Z" fill="#9AA6B8"/>
+    <rect x="455" y="152" width="50" height="7" rx="3" fill="#9AA6B8"/>
+  </g>
+  <!-- Confetti -->
+  <circle cx="90" cy="150" r="7" fill="#2A9D8F"/>
+  <circle cx="380" cy="70" r="5" fill="#1F3A5F"/>
+  <rect x="520" y="300" width="12" height="12" rx="2" fill="#4F86B7" transform="rotate(20 526 306)"/>
+  <circle cx="70" cy="230" r="4" fill="#4F86B7"/>
+  <rect x="320" y="200" width="10" height="10" rx="2" fill="#2A9D8F" transform="rotate(30 325 205)"/>
+</svg>

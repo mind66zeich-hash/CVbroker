@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-hidden="true">
+  <rect x="40" y="40" width="520" height="380" rx="190" fill="#DCE6F2"/>
+  <ellipse cx="300" cy="410" rx="250" ry="24" fill="#1F3A5F" opacity=".12"/>
+  <!-- Embroidery hoop -->
+  <circle cx="200" cy="215" r="120" fill="#A9BCCD"/>
+  <circle cx="200" cy="215" r="108" fill="#FFFFFF"/>
+  <rect x="190" y="88" width="20" height="18" rx="3" fill="#7F98AF"/>
+  <circle cx="200" cy="84" r="9" fill="#7F98AF"/>
+  <path d="M200 150 L218 192 L264 196 L229 225 L240 270 L200 246 L160 270 L171 225 L136 196 L182 192 Z" fill="none" stroke="#2A9D8F" stroke-width="7" stroke-dasharray="10 6" stroke-linejoin="round"/>
+  <path d="M200 172 L211 200 L240 202 L218 220 L225 248 L200 233 L175 248 L182 220 L160 202 L189 200 Z" fill="#1F3A5F"/>
+  <!-- Needle and thread -->
+  <path d="M300 120 Q350 160 330 230 T380 330" fill="none" stroke="#4F86B7" stroke-width="4"/>
+  <g transform="rotate(40 300 120)"><rect x="296" y="60" width="7" height="80" rx="3.5" fill="#9AA6B8"/><ellipse cx="299.5" cy="70" rx="2" ry="6" fill="#FFFFFF"/></g>
+  <!-- Thread spools -->
+  <g><rect x="360" y="300" width="56" height="12" rx="3" fill="#A9BCCD"/><rect x="366" y="312" width="44" height="58" fill="#4F86B7"/><rect x="360" y="370" width="56" height="12" rx="3" fill="#A9BCCD"/></g>
+  <g><rect x="425" y="300" width="56" height="12" rx="3" fill="#A9BCCD"/><rect x="431" y="312" width="44" height="58" fill="#1F3A5F"/><rect x="425" y="370" width="56" height="12" rx="3" fill="#A9BCCD"/></g>
+  <g><rect x="490" y="300" width="56" height="12" rx="3" fill="#A9BCCD"/><rect x="496" y="312" width="44" height="58" fill="#2A9D8F"/><rect x="490" y="370" width="56" height="12" rx="3" fill="#A9BCCD"/></g>
+  <!-- Screen print frame -->
+  <rect x="380" y="90" width="150" height="160" rx="8" fill="#1F3A5F"/>
+  <rect x="396" y="106" width="118" height="128" rx="4" fill="#F4F6F9"/>
+  <rect x="420" y="140" width="70" height="60" rx="6" fill="#2A9D8F"/>
+  <text x="455" y="177" font-family="system-ui,sans-serif" font-size="16" font-weight="800" fill="#1F3A5F" text-anchor="middle">LOGO</text>
+  <!-- Squeegee -->
+  <rect x="372" y="246" width="166" height="12" rx="4" fill="#4F86B7"/>
+  <rect x="440" y="226" width="30" height="22" rx="4" fill="#3A6A96"/>
+  <!-- Sparkles (laser / technology) -->
+  <path d="M90 360 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6z" fill="#2A9D8F"/>
+  <path d="M330 60 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z" fill="#1F3A5F"/>
+</svg>

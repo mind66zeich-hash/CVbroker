@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-hidden="true">
+  <circle cx="300" cy="230" r="205" fill="#DCE6F2"/>
+  <ellipse cx="300" cy="412" rx="260" ry="22" fill="#1F3A5F" opacity=".12"/>
+  <!-- Laptop -->
+  <rect x="80" y="80" width="440" height="280" rx="16" fill="#1F3A5F"/>
+  <rect x="98" y="98" width="404" height="244" rx="6" fill="#FFFFFF"/>
+  <path d="M40 360 H560 L540 395 Q536 402 526 402 H74 Q64 402 60 395 Z" fill="#152a46"/>
+  <rect x="260" y="362" width="80" height="8" rx="4" fill="#3A5679"/>
+  <!-- Browser bar -->
+  <rect x="98" y="98" width="404" height="26" rx="6" fill="#F4F6F9"/>
+  <circle cx="114" cy="111" r="4" fill="#4F86B7"/><circle cx="128" cy="111" r="4" fill="#2A9D8F"/><circle cx="142" cy="111" r="4" fill="#8FB996"/>
+  <!-- Product preview -->
+  <rect x="116" y="138" width="180" height="188" rx="10" fill="#F4F6F9"/>
+  <path d="M146 176 L180 160 Q206 176 232 160 L266 176 L282 214 L258 224 L258 306 L154 306 L154 224 L130 214 Z" fill="#2A9D8F"/>
+  <rect x="186" y="204" width="40" height="22" rx="4" fill="#1F3A5F"/>
+  <!-- Options panel -->
+  <rect x="314" y="140" width="110" height="10" rx="5" fill="#1F3A5F"/>
+  <rect x="314" y="158" width="160" height="7" rx="3.5" fill="#C9D3E0"/>
+  <text x="314" y="190" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#5B6472">Colore</text>
+  <circle cx="324" cy="208" r="10" fill="#2A9D8F" stroke="#1F3A5F" stroke-width="3"/>
+  <circle cx="352" cy="208" r="10" fill="#1F3A5F"/>
+  <circle cx="380" cy="208" r="10" fill="#4F86B7"/>
+  <circle cx="408" cy="208" r="10" fill="#FFFFFF" stroke="#C9D3E0" stroke-width="2"/>
+  <text x="314" y="242" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#5B6472">Personalizzazione</text>
+  <rect x="314" y="250" width="70" height="24" rx="12" fill="#1F3A5F"/>
+  <text x="349" y="266" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Ricamo</text>
+  <rect x="390" y="250" width="70" height="24" rx="12" fill="#F4F6F9" stroke="#C9D3E0"/>
+  <text x="425" y="266" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#5B6472" text-anchor="middle">Stampa</text>
+  <rect x="314" y="292" width="170" height="34" rx="17" fill="#2A9D8F"/>
+  <text x="399" y="314" font-family="system-ui,sans-serif" font-size="13" font-weight="800" fill="#1C1C1C" text-anchor="middle">Invia richiesta</text>
+  <!-- Cursor -->
+  <path d="M440 300 L440 340 L450 330 L458 348 L466 344 L458 327 L472 327 Z" fill="#1C1C1C" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Floating tags -->
+  <rect x="470" y="50" width="96" height="40" rx="20" fill="#FFFFFF" stroke="#1F3A5F" stroke-width="3"/>
+  <path d="M492 70 l6 6 12 -12" fill="none" stroke="#8FB996" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="516" y="66" width="36" height="8" rx="4" fill="#1F3A5F"/>
+  <circle cx="60" cy="140" r="8" fill="#2A9D8F"/>
+  <circle cx="545" cy="250" r="6" fill="#4F86B7"/>
+</svg>
