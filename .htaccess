@@ -1,0 +1,58 @@
+# C & V Broker s.r.l. – configurazione Apache per IONOS
+
+Options -Indexes
+DirectoryIndex index.html
+
+# ---------- Pagina di errore ----------
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # ---------- Forza HTTPS e www ----------
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^ https://www.cevbroker.it%{REQUEST_URI} [L,R=301]
+
+  # ---------- Vecchi indirizzi del sito IONOS MyWebsite ----------
+  RewriteRule ^servizi/?$ /servizi.html [L,R=301]
+  RewriteRule ^shop-on-line/?$ /configuratore.html [L,R=301]
+  RewriteRule ^ricerca-agenti/?$ /lavora-con-noi.html [L,R=301]
+  RewriteRule ^contatti/?$ /contatti.html [L,R=301]
+  RewriteRule ^sitemap/?$ / [L,R=301]
+  RewriteRule ^s/ / [L,R=301]
+</IfModule>
+
+# ---------- Compressione ----------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript text/javascript image/svg+xml application/xml text/xml text/plain application/ld+json
+</IfModule>
+
+# ---------- Cache del browser ----------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 week"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 6 months"
+  ExpiresByType image/png "access plus 6 months"
+  ExpiresByType image/jpeg "access plus 6 months"
+  ExpiresByType image/webp "access plus 6 months"
+  ExpiresByType image/x-icon "access plus 6 months"
+</IfModule>
+
+# ---------- Header di sicurezza ----------
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000" env=HTTPS
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+
+# Blocca l'accesso ai file nascosti (tranne .well-known, usato per i certificati SSL)
+<IfModule mod_rewrite.c>
+  RewriteRule "(^|/)\.(?!well-known/)" - [F]
+</IfModule>
